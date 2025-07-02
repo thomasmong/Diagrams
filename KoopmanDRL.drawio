@@ -1,9 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Page-1" id="kne6peY2nPMTJXlIG8h8">
-    <mxGraphModel>
+    <mxGraphModel dx="570" dy="318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0" adaptiveColors="auto">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4Gs1HaFy1u3a11CzFIE-2" target="L4Gs1HaFy1u3a11CzFIE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-3" value="Model Predictive Control" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-7" value="&lt;span style=&quot;font-weight: normal; line-height: 100%;&quot;&gt;&lt;font&gt;DRL model&lt;/font&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;arcSize=25;startSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;fontFamily=Ubuntu;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="270" height="200" as="geometry">
+            <mxRectangle x="160" y="80" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-1" value="Basis functions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Ubuntu;" vertex="1" parent="L4Gs1HaFy1u3a11CzFIE-7">
+          <mxGeometry x="20" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-2" value="Weights" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Ubuntu;" vertex="1" parent="L4Gs1HaFy1u3a11CzFIE-7">
+          <mxGeometry x="154" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Ubuntu;" edge="1" parent="L4Gs1HaFy1u3a11CzFIE-7" source="L4Gs1HaFy1u3a11CzFIE-1" target="L4Gs1HaFy1u3a11CzFIE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-8" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=2;shape=mxgraph.mockup.markup.curlyBrace;whiteSpace=wrap;direction=west;rounded=1;fontFamily=Ubuntu;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="L4Gs1HaFy1u3a11CzFIE-7">
+          <mxGeometry x="20" y="110" width="100" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="L4Gs1HaFy1u3a11CzFIE-9" value="independent on $\theta$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="198" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
